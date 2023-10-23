@@ -1,1 +1,28 @@
+@font-face {
+    font-family: "Monocode";
+    src: url('assets/fonts/monocode/monocode-regular.ttf');
+    src: url('assets/fonts/monocode/monocode-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+body {
+    background-color: rgb(22, 22, 22);
+
+    color: rgb(212, 212, 212);
+    font-family: "Monocode";
+}
+
+pre {
+    margin-top: 18px;
+    margin-bottom: 0px;
+
+    background-color: rgb(30, 30, 30);
+
+    font-family: "Monocode"; font-size: 14px;
+    line-height: 18px;
+}
+
+hr {
+    border: 1px solid rgb(212, 212, 212);
+}

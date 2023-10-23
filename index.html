@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Bootstrap CSS -->
-    <link href="{{ url_for('static', filename = 'structures/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="static/structures/bootstrap/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{{ url_for('static', filename = 'style.css') }}" rel="stylesheet">
+    <link href="static/tyle.css" rel="stylesheet">
 
     <!-- MathJax -->
     <script src="{{ url_for('static', filename = 'assets/mathjax/tex-svg.js') }}" id="MathJax-script" async></script>
@@ -27,20 +27,14 @@
     <title>{% block title %}{% endblock %} | Giulio Caflisch</title>
   </head>
 
-  <body>    
-    <!-- Header -->
-    {% include 'components/header.html' %}
+  <body>
 
-    <!-- Page Content -->
-    {% block page_content %}{% endblock %}
-
-    <!-- Footer -->
-    {% include 'components/footer.html' %}
+    <h1>Giulio Caflisch</h1>
 
     <!-- Bootstrap Bundle with Popper -->
-    <script src="{{ url_for('static', filename = 'structures/bootstrap/bootstrap.bundle.min.js') }}"></script>
+    <script src="static/structures/bootstrap/bootstrap.bundle.min.js"></script>
 
     <!-- Custom JavaScript -->
-    <script src="{{ url_for('static', filename = 'interactive.js') }}"></script>
+    <script src="static/interactive.js"></script>
   </body>
 </html>
