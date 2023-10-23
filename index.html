@@ -1,1 +1,46 @@
-<h1>Hello World!</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="{{ url_for('static', filename = 'structures/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{{ url_for('static', filename = 'style.css') }}" rel="stylesheet">
+
+    <!-- MathJax -->
+    <script src="{{ url_for('static', filename = 'assets/mathjax/tex-svg.js') }}" id="MathJax-script" async></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+
+    <!-- Title -->
+    <title>{% block title %}{% endblock %} | Giulio Caflisch</title>
+  </head>
+
+  <body>    
+    <!-- Header -->
+    {% include 'components/header.html' %}
+
+    <!-- Page Content -->
+    {% block page_content %}{% endblock %}
+
+    <!-- Footer -->
+    {% include 'components/footer.html' %}
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="{{ url_for('static', filename = 'structures/bootstrap/bootstrap.bundle.min.js') }}"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="{{ url_for('static', filename = 'interactive.js') }}"></script>
+  </body>
+</html>
