@@ -14,15 +14,19 @@ body {
 }
 
 pre {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 
     background-color: rgb(30, 30, 30);
 
-    font-family: "Monocode"; font-size: 18px;
-    line-height: 20px;
+    font-family: "Monocode"; font-size: 15px;
+    line-height: 18px;
 }
 
 hr {
     border: 1px solid rgb(212, 212, 212);
+}
+
+axiom {
+    color: yellow;
 }
