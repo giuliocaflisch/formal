@@ -14,13 +14,13 @@ body {
 }
 
 pre {
-    margin-top: 18px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     background-color: rgb(30, 30, 30);
 
-    font-family: "Monocode"; font-size: 14px;
-    line-height: 18px;
+    font-family: "Monocode"; font-size: 18px;
+    line-height: 20px;
 }
 
 hr {
