@@ -10,16 +10,17 @@ body {
     background-color: rgb(22, 22, 22);
 
     color: rgb(212, 212, 212);
+    
     font-family: "Monocode";
+    font-size: 14px;
 }
 
 pre {
-    margin-top: 11px;
-    margin-bottom: 11px;
-
     background-color: rgb(30, 30, 30);
 
-    font-family: "Monocode"; font-size: 14px;
+    font-family: "Monocode";
+    font-size: 14px;
+    
     line-height: 18px;
 }
 
