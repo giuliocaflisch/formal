@@ -16,7 +16,10 @@ body {
     font-family: "Monocode";
     font-size: 14px;
 
-    margin: 0px;
+    margin-top:    0px;
+    margin-bottom: 0px;
+    margin-left:   0px;
+    margin-right:  0px;
 }
 
 pre {
@@ -25,7 +28,8 @@ pre {
     font-family: "Monocode";
     font-size: 14px;
 
-    margin: 0px;
+    margin-top:    12px;
+    margin-bottom: 12px;
     
     line-height: 18px;
 }
